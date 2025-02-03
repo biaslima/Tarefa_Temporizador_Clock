@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/wokwi.hex'
+elf = 'build/wokwi.elf'
