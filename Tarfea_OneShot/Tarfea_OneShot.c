@@ -56,8 +56,7 @@ int main() {
             gpio_put(LED_AZUL, 1);
 
             
-            add_alarm_in_ms(3000, desligar_led_vermelho_callback, NULL, false);
-            alarme_ativo = false;  
+            add_alarm_in_ms(3000, desligar_led_vermelho_callback, NULL, false);  
         }
 
         printf("Aguardando botão ser pressionado\n");
